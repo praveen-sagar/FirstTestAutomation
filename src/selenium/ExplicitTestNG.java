@@ -20,6 +20,7 @@ public class ExplicitTestNG {
 
 	@Test
 	public void testExplicitTestNG() {
+		driver.manage().window().maximize();
 		driver.get("https://testautomation.co/webelements/");
 		WebDriverWait wait = new WebDriverWait(driver, 15);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("explibutton")));
