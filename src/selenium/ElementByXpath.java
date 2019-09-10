@@ -19,8 +19,8 @@ public class ElementByXpath {
 	@Test
 	public void testElementByXpath() {
 		driver.get("https://testautomation.co/webelements/");
+		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//input[@type=\"submit\"]")).click();
-
 	}
 
 	@AfterMethod

@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.HardAssertionExample">
+      <class name="selenium.ExplicitTestNG">
         <methods>
           <include name="beforeMethod"/>
-          <include name="testHardAssertionExample"/>
+          <include name="testExplicitTestNG"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- selenium.HardAssertionExample -->
+      </class> <!-- selenium.ExplicitTestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
