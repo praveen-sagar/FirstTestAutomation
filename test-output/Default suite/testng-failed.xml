@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.ExplicitTestNG">
+      <class name="selenium.HandleNewTabDemo">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="testExplicitTestNG"/>
+          <include name="handleNewTab"/>
           <include name="afterMethod"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- selenium.ExplicitTestNG -->
+      </class> <!-- selenium.HandleNewTabDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

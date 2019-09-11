@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36888" started-at="2019-09-10T22:15:17 IST" finished-at="2019-09-10T22:15:54 IST">
+  <suite name="Default suite" duration-ms="59076" started-at="2019-09-11T10:41:00 IST" finished-at="2019-09-11T10:41:59 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36888" started-at="2019-09-10T22:15:17 IST" finished-at="2019-09-10T22:15:54 IST">
-      <class name="selenium.NavigateDemo">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:selenium.NavigateDemo@335eadca]" name="beforeMethod" is-config="true" duration-ms="1187" started-at="2019-09-10T22:15:17 IST" finished-at="2019-09-10T22:15:18 IST">
+    <test name="Default test" duration-ms="59076" started-at="2019-09-11T10:41:00 IST" finished-at="2019-09-11T10:41:59 IST">
+      <class name="selenium.HandleNewTabDemo">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:selenium.HandleNewTabDemo@335eadca]" name="beforeMethod" is-config="true" duration-ms="7573" started-at="2019-09-11T10:41:00 IST" finished-at="2019-09-11T10:41:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="navigateDemo()[pri:0, instance:selenium.NavigateDemo@335eadca]" name="navigateDemo" duration-ms="35479" started-at="2019-09-10T22:15:18 IST" finished-at="2019-09-10T22:15:54 IST">
+        <test-method status="PASS" signature="handleNewTab()[pri:0, instance:selenium.HandleNewTabDemo@335eadca]" name="handleNewTab" duration-ms="51318" started-at="2019-09-11T10:41:08 IST" finished-at="2019-09-11T10:41:59 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateDemo -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:selenium.NavigateDemo@335eadca]" name="afterMethod" is-config="true" duration-ms="176" started-at="2019-09-10T22:15:54 IST" finished-at="2019-09-10T22:15:54 IST">
+        </test-method> <!-- handleNewTab -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:selenium.HandleNewTabDemo@335eadca]" name="afterMethod" is-config="true" duration-ms="95" started-at="2019-09-11T10:41:59 IST" finished-at="2019-09-11T10:41:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- selenium.NavigateDemo -->
+      </class> <!-- selenium.HandleNewTabDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
