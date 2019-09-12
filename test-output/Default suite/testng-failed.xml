@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.HandleNewTabDemo">
+      <class name="selenium.DynamicXpathDemo">
         <methods>
-          <include name="handleNewTab"/>
           <include name="afterMethod"/>
+          <include name="testDynamicXpathDemo"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- selenium.HandleNewTabDemo -->
+      </class> <!-- selenium.DynamicXpathDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

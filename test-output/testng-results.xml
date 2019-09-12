@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="59076" started-at="2019-09-11T10:41:00 IST" finished-at="2019-09-11T10:41:59 IST">
+  <suite name="Default suite" duration-ms="33228" started-at="2019-09-12T12:05:40 IST" finished-at="2019-09-12T12:06:14 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="59076" started-at="2019-09-11T10:41:00 IST" finished-at="2019-09-11T10:41:59 IST">
-      <class name="selenium.HandleNewTabDemo">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:selenium.HandleNewTabDemo@335eadca]" name="beforeMethod" is-config="true" duration-ms="7573" started-at="2019-09-11T10:41:00 IST" finished-at="2019-09-11T10:41:08 IST">
+    <test name="Default test" duration-ms="33228" started-at="2019-09-12T12:05:40 IST" finished-at="2019-09-12T12:06:14 IST">
+      <class name="selenium.DynamicXpathDemo">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:selenium.DynamicXpathDemo@335eadca]" name="beforeMethod" is-config="true" duration-ms="1465" started-at="2019-09-12T12:05:40 IST" finished-at="2019-09-12T12:05:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="handleNewTab()[pri:0, instance:selenium.HandleNewTabDemo@335eadca]" name="handleNewTab" duration-ms="51318" started-at="2019-09-11T10:41:08 IST" finished-at="2019-09-11T10:41:59 IST">
+        <test-method status="PASS" signature="testDynamicXpathDemo()[pri:0, instance:selenium.DynamicXpathDemo@335eadca]" name="testDynamicXpathDemo" duration-ms="31376" started-at="2019-09-12T12:05:42 IST" finished-at="2019-09-12T12:06:13 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- handleNewTab -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:selenium.HandleNewTabDemo@335eadca]" name="afterMethod" is-config="true" duration-ms="95" started-at="2019-09-11T10:41:59 IST" finished-at="2019-09-11T10:41:59 IST">
+        </test-method> <!-- testDynamicXpathDemo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:selenium.DynamicXpathDemo@335eadca]" name="afterMethod" is-config="true" duration-ms="315" started-at="2019-09-12T12:06:13 IST" finished-at="2019-09-12T12:06:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- selenium.HandleNewTabDemo -->
+      </class> <!-- selenium.DynamicXpathDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
